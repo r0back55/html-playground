@@ -3,61 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cake Portfolio</title>
+    <title>Torty By Anula</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
+        <div class="logo">TortyByAnula</div>
         <nav>
-            <h1>My Cake Portfolio</h1>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#">Torty</a></li>
+                <li><a href="#">Ciasta</a></li>
+                <li><a href="#">Monoporcje</a></li>
+                <li><a href="#">Matryca smaków</a></li>
             </ul>
         </nav>
     </header>
-    <section id="home">
-        <div class="intro">
-            <h2>Welcome to My Cake Portfolio</h2>
-            <p>Discover the best homemade cakes!</p>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section">
+        <h1>Tutuł do wymyślenia</h1>
+        <p>Witaj w mojej osobistej kolekcji! Znajdziesz tu szeroki wybór ciast, 
+            ze szczególnym uwzględnieniem tortów urodzinowych i pojedynczych porcji.</p>
+
+        <p>Pieczenie to moja pasja, uwielbiam tworzyć wyjątkowe i pyszne smakołyki na różne okazje. 
+            Uwaga, to nie jest sklep ani cukiernia – to tylko przytulny kącik, w którym dzielę się moimi ulubionymi, domowymi ciastami. 
+            Poznaj moje przepisy i ciesz się słodką podróżą ze mną!</p>
+        <!-- <button>Let's Work Together</button> -->
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="project">
+            <img src="images/kicia_kocia.JPG" alt="Project 1">
+            <p>Project Description 1</p>
+        </div>
+        <div class="project">
+            <img src="images/bluey_bingo.JPG" alt="Project 2">
+            <p>Project Description 2</p>
+        </div>
+        <div class="project">
+            <img src="images/koronka.JPG" alt="Project 3">
+            <p>Project Description 3</p>
+        </div>
+        <div class="project">
+            <img src="images/lesny.JPG" alt="Project 4">
+            <p>Project Description 4</p>
         </div>
     </section>
-    <section id="about">
-        <div class="about-content">
-            <h2>About Me</h2>
-            <p>I am passionate about baking cakes and creating sweet moments for everyone.</p>
+
+    <section class="projects-section">
+        <div class="project">
+            <img src="project5.jpg" alt="Project 5">
+            <p>Project Description 1</p>
+        </div>
+        <div class="project">
+            <img src="project6.jpg" alt="Project 6">
+            <p>Project Description 2</p>
+        </div>
+        <div class="project">
+            <img src="project7.jpg" alt="Project 7">
+            <p>Project Description 3</p>
+        </div>
+        <div class="project">
+            <img src="project8.jpg" alt="Project 8">
+            <p>Project Description 4</p>
         </div>
     </section>
-    <section id="portfolio">
-        <div class="gallery">
-            <h2>My Creations</h2>
-            <div class="gallery-grid">
-                <div class="gallery-item"><img src="images/bluey_bingo.JPG" alt="Blue i Bingo"></div>
-                <div class="gallery-item"><img src="images/kicia_kocia.JPG" alt="Kicia Kocia"></div>
-                <div class="gallery-item"><img src="images/koronka.JPG" alt="Tort z koronką"></div>
-                <div class="gallery-item"><img src="images/lesny.JPG" alt="Tort leśny"></div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <p>Nie wiesz jak zacząć? Sprawdż mój darmowy poradnik!</p> <br>
+                <button>Pobierz</button>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Website Templates</a></li>
+                    <li><a href="#">Free Tools</a></li>
+                    <li><a href="#">Shop</a></li>
+                </ul>
             </div>
         </div>
-    </section>
-    <section id="contact">
-        <div class="contact-form">
-            <h2>Contact Me</h2>
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Send</button>
-            </form>
+        <div class="footer-bottom">
+            <p>TortyByAnula nie jest sklepem. Zdjęcia przedstawione na stronie 
+                zostały zebrane na przestrzeni lat z prywatnej galerii przyjęć.</p>
+            <p>&copy; 2024 TortyByAnula | Terms | Privacy</p>
         </div>
-    </section>
-    <footer>
-        <p>&copy; 2024 My Cake Portfolio. All rights reserved.</p>
     </footer>
-    <script src="scripts.js"></script>
 </body>
 </html>
